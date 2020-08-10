@@ -6,6 +6,6 @@ priority 100
 visibility pack
 itemRgb On
 type bigBed 9 +
-bigDataUrl bbi/combined_features.bb
+bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct
 
