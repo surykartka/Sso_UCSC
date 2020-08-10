@@ -1,9 +1,20 @@
-track genes
+track genes_short
 longLabel Gene annotations
 shortLabel Genes
 group genes
 priority 100
 visibility pack
+itemRgb On
+type bigBed 9 +
+bigDataUrl bbi/genes_shortList.bb
+searchIndex name,geneProduct
+
+track genes
+longLabel NCBI gene annotations
+shortLabel Genes NCBI
+group genes
+priority 100
+visibility hide
 itemRgb On
 type bigBed 9 +
 bigDataUrl bbi/genes.bb

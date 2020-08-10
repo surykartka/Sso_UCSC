@@ -1,7 +1,7 @@
 import os
 
 gff = 'genes.gff3'
-out = 'genes.bb'
+out = 'genes_shortList.bb'
 
 colors = ['44,160,44','31,119,180','255,127,14','214,39,40','31,119,180']
 biotype2color = {}
@@ -18,6 +18,8 @@ with open(out, 'w') as f:
 				xid = desc.split('old_locus_tag=')[1].strip()
 			else:
 				xid = desc.split('ID=')[1].split(';')[0]
+			if xid.startswith('gene-SSO_RS'):
+				continue
 			biotype = 'protein_coding'
 			if 'gene_biotype=' in desc:
 				biotype = desc.split('gene_biotype=')[1].split(';')[0]
