@@ -1,0 +1,6 @@
+hub rnaplab
+shortLabel RNAP-lab
+longLabel ChIP-seq experiments
+genomesFile genomes.txt
+email d.matelska@ucl.ac.uk
+descriptionUrl demo.html

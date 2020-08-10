@@ -1,0 +1,10 @@
+genome Sso
+trackDb Sso/trackDb.txt
+groups groups.txt
+description P2
+twoBitPath Sso/SsoP2.2bit
+organism Saccharolobus solfataricus
+defaultPos gi|15896971|ref|NC_002754.1|:46880-50000
+orderKey 4700
+scientificName Saccharolobus solfataricus
+htmlPath Sso/description.html
