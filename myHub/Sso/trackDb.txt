@@ -177,7 +177,7 @@ track Rpo47_exo
 group ChIP-exo
 container multiWig
 shortLabel Rpo47 ChIP-exo
-longLabel Rpo47 ChIP-exo hydrogen peroxide-treated cells
+longLabel Rpo47 ChIP-exo exponential growth
 type bigWig
 #viewLimits 0:160
 visibility full
@@ -190,7 +190,6 @@ configurable on
 autoScale on
 maxHeightPixels 50
 
-
 track Rpo47_exo_forward
 longLabel Rpo47 ChIP-exo forward strand
 shortLabel Rpo47 ChIP-exo frw
@@ -199,7 +198,7 @@ parent Rpo47_exo
 visibility pack
 type bigWig
 color 10,10,10
-bigDataUrl bbi/GSE141288_Rpo47_exo_H2O2_GM_Forward.bw
+bigDataUrl bbi/GSE141289_Rpo47_exo_expon_GM_Forward.bw
 
 track Rpo47_exo_reverse
 longLabel Rpo47 ChIP-exo reverse strand
@@ -210,7 +209,47 @@ visibility pack
 type bigWig
 color 80,80,80
 negateValues on
-bigDataUrl bbi/GSE141288_Rpo47_exo_H2O2_GM_Reverse.bw
+bigDataUrl bbi/GSE141289_Rpo47_exo_expon_GM_Reverse.bw
+
+
+track TFB_exo
+group ChIP-exo
+container multiWig
+shortLabel TFB ChIP-exo
+longLabel TFB ChIP-exo exponential growth
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault bar
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 30
+configurable on
+autoScale on
+maxHeightPixels 50
+
+track TFB_exo_forward
+longLabel TFB ChIP-exo forward strand
+shortLabel TFB ChIP-exo frw
+group ChIP-exo
+parent TFB_exo
+visibility pack
+type bigWig
+color 30,135,122
+bigDataUrl bbi/GSE141289_TFB_exo_expon_GM_Forward.bw
+
+track TFB_exo_reverse
+longLabel TFB ChIP-exo reverse strand
+shortLabel TFB ChIP-exo rev
+group ChIP-exo
+parent TFB_exo
+visibility pack
+type bigWig
+color 124,190,181
+negateValues on
+bigDataUrl bbi/GSE141289_TFB_exo_expon_GM_Reverse.bw
+
 
 
 
