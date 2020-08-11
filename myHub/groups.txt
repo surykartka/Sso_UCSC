@@ -18,6 +18,11 @@ label ChIP-exo
 priority 2
 defaultIsClosed 0
 
+name ChIP-exo_H2O2
+label ChIP-exo_H2O2
+priority 2
+defaultIsClosed 0
+
 name RNA-seq
 label RNA-seq
 priority 2
