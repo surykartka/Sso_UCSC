@@ -21,7 +21,7 @@ bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct
 
 track Rpo47_H2O2
-group ChIP-seq
+group ChIP-seq_H2O2
 container multiWig
 shortLabel Rpo47_H2O2
 longLabel Rpo47 ChIP-seq hydrogen peroxide-treated cells
@@ -53,7 +53,80 @@ group ChIP-seq
 parent Rpo47_H2O2
 visibility pack
 type bigWig
-color 10,10,10
+color 80,80,80
 bigDataUrl bbi/GSM4192701_Rpo47_H2O2_r2.normRatio.SsoP2.bw
+
+track Spt45_H2O2
+group ChIP-seq_H2O2
+container multiWig
+shortLabel Spt45_H2O2
+longLabel Spt4/5 ChIP-seq hydrogen peroxide-treated cells
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 90
+configurable on
+autoScale on
+
+track Spt45_H2O2_r1
+longLabel Spt4/5 H2O2-treated cells replicate 1
+shortLabel Spt45 H2O2 r1
+group ChIP-seq
+parent Spt45_H2O2
+visibility pack
+type bigWig
+color 52,36,110
+bigDataUrl bbi/GSM4192702_Spt45.H2O2_r1.Coverage.SsoP2.bw
+
+track Spt45_H2O2_r2
+longLabel Spt4/5 H2O2-treated cells replicate 2
+shortLabel Spt45 H2O2 r2
+group ChIP-seq
+parent Spt45_H2O2
+visibility pack
+type bigWig
+color 115,97,162
+bigDataUrl bbi/GSM4192703_Spt45.H2O2_r2.Coverage.SsoP2.bw
+
+
+track Elf1_H2O2
+group ChIP-seq_H2O2
+container multiWig
+shortLabel Elf1_H2O2
+longLabel Elf1 ChIP-seq hydrogen peroxide-treated cells
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 90
+configurable on
+autoScale on
+
+track Elf1_H2O2_r1
+longLabel Elf1 H2O2-treated cells replicate 1
+shortLabel Elf1 H2O2 r1
+group ChIP-seq
+parent Elf1_H2O2
+visibility pack
+type bigWig
+color 180,70,136
+bigDataUrl bbi/GSM4192704_Elf1.H2O2_r1.Coverage.SsoP2.bw
+
+track Elf1_H2O2_r2
+longLabel Elf1 H2O2-treated cells replicate 2
+shortLabel Elf1 H2O2 r2
+group ChIP-seq
+parent Elf1_H2O2
+visibility pack
+type bigWig
+color 212,155,190
+bigDataUrl bbi/GSM4192705_Elf1.H2O2_r2.Coverage.SsoP2.bw
 
 
