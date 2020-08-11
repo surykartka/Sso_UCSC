@@ -20,3 +20,31 @@ type bigBed 9 +
 bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct
 
+track Rpo47_H2O2
+group ChIP-seq
+container multiWig
+shortLabel Rpo47_H2O2
+longLabel Rpo47 ChIP-seq hydrogen peroxide-treated cells
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 90
+configurable on
+autoScale on
+
+track Rpo47_H2O2_r1
+longLabel Rpo47 H2O2-treated cells replicate 1
+shortLabel Rpo47 H2O2 r1
+group ChIP-seq
+parent Rpo47_H2O2
+visibility pack
+type bigWig
+color 100,100,100
+bigDataUrl bbi/GSM4192700_Rpo47_H2O2_r1.normRatio.SsoP2.bw
+
+
+
