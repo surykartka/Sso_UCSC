@@ -43,8 +43,17 @@ group ChIP-seq
 parent Rpo47_H2O2
 visibility pack
 type bigWig
-color 100,100,100
+color 10,10,10
 bigDataUrl bbi/GSM4192700_Rpo47_H2O2_r1.normRatio.SsoP2.bw
 
+track Rpo47_H2O2_r2
+longLabel Rpo47 H2O2-treated cells replicate 2
+shortLabel Rpo47 H2O2 r2
+group ChIP-seq
+parent Rpo47_H2O2
+visibility pack
+type bigWig
+color 10,10,10
+bigDataUrl bbi/GSM4192701_Rpo47_H2O2_r2.normRatio.SsoP2.bw
 
 
