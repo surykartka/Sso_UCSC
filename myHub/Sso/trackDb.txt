@@ -521,7 +521,7 @@ group ChIP-seq
 parent CPSF1_H2O2
 visibility pack
 type bigWig
-color 87,60,60
+color 124,105,105
 bigDataUrl bbi/GSM4192707_CPSF1_H2O2_r2.normRatio.bw
 
 
