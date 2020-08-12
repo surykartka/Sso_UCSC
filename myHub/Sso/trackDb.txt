@@ -788,7 +788,7 @@ longLabel TFB peaks exponential growth, IDR 0.05
 shortLabel TFB peaks expon
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFB1.expon.peaksIDR0.05.bb
 visibility squish
 
@@ -797,7 +797,7 @@ longLabel TFB peaks stationary growth, IDR 0.05
 shortLabel TFB peaks stat
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFB1.stat.peaksIDR0.05.bb
 visibility squish
 
@@ -806,7 +806,7 @@ longLabel TFB peaks H2O2-treated cells, IDR 0.05
 shortLabel TFB peaks H2O2
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFB1.H2O2.peaksIDR0.05.bb
 visibility squish
 
@@ -816,7 +816,7 @@ longLabel TFEa peaks exponential growth, IDR 0.05
 shortLabel TFEa peaks expon
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFEa.expon.peaksIDR0.05.bb
 visibility squish
 
@@ -825,7 +825,7 @@ longLabel TFEa peaks stationary growth, IDR 0.05
 shortLabel TFEa peaks stat
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFEa.stat.peaksIDR0.05.bb
 visibility squish
 
@@ -834,7 +834,7 @@ longLabel TFEa peaks H2O2-treated cells, IDR 0.05
 shortLabel TFEa peaks H2O2
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFEa.H2O2.peaksIDR0.05.bb
 visibility squish
 
@@ -845,7 +845,7 @@ longLabel TFEb peaks exponential growth, IDR 0.05
 shortLabel TFEb peaks expon
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFEb.expon.peaksIDR0.05.bb
 visibility squish
 
@@ -854,7 +854,7 @@ longLabel TFEb peaks stationary growth, IDR 0.05
 shortLabel TFEb peaks stat
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFEb.stat.peaksIDR0.05.bb
 visibility squish
 
@@ -863,7 +863,7 @@ longLabel TFEb peaks H2O2-treated cells, IDR 0.05
 shortLabel TFEb peaks H2O2
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/TFEb.H2O2.peaksIDR0.05.bb
 visibility squish
 
@@ -873,7 +873,7 @@ longLabel CPSF1 peaks exponential growth, IDR 0.05
 shortLabel CPSF1 peaks expon
 group peaks
 parent peaks_MACS2
-type bigBed 3
+type bigBed 5
 bigDataUrl bbi/CPSF1.expon.peaksIDR0.05.bb
 visibility squish
 
