@@ -33,10 +33,10 @@ label PIP-seq
 priority 2
 defaultIsClosed 0
 
-name CSAW
-label CSAW
-priority 3
-defaultIsClosed 0
+name peaks
+label peaks
+priority 1
+defaultIsClosed 1
 
 name deltaG
 label deltaG

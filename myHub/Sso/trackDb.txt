@@ -768,3 +768,112 @@ color 124,105,105
 bigDataUrl bbi/GSM4192707_CPSF1_H2O2_r2.normRatio.bw
 
 
+
+track peaks_MACS2
+group peaks
+superTrack on show
+shortLabel Called peaks
+longLabel Peaks called with MACS2
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 20
+configurable on
+autoScale on
+
+track TFB_peaks_expon
+longLabel TFB peaks exponential growth, IDR 0.05
+shortLabel TFB peaks expon
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFB1.expon.peaksIDR0.05.bb
+visibility squish
+
+track TFB_peaks_stat
+longLabel TFB peaks stationary growth, IDR 0.05
+shortLabel TFB peaks stat
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFB1.stat.peaksIDR0.05.bb
+visibility squish
+
+track TFB_peaks_H2O2
+longLabel TFB peaks H2O2-treated cells, IDR 0.05
+shortLabel TFB peaks H2O2
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFB1.H2O2.peaksIDR0.05.bb
+visibility squish
+
+
+track TFEa_peaks_expon
+longLabel TFEa peaks exponential growth, IDR 0.05
+shortLabel TFEa peaks expon
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFEa.expon.peaksIDR0.05.bb
+visibility squish
+
+track TFEa_peaks_stat
+longLabel TFEa peaks stationary growth, IDR 0.05
+shortLabel TFEa peaks stat
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFEa.stat.peaksIDR0.05.bb
+visibility squish
+
+track TFEa_peaks_H2O2
+longLabel TFEa peaks H2O2-treated cells, IDR 0.05
+shortLabel TFEa peaks H2O2
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFEa.H2O2.peaksIDR0.05.bb
+visibility squish
+
+
+
+track TFEb_peaks_expon
+longLabel TFEb peaks exponential growth, IDR 0.05
+shortLabel TFEb peaks expon
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFEb.expon.peaksIDR0.05.bb
+visibility squish
+
+track TFEb_peaks_stat
+longLabel TFEb peaks stationary growth, IDR 0.05
+shortLabel TFEb peaks stat
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFEb.stat.peaksIDR0.05.bb
+visibility squish
+
+track TFEb_peaks_H2O2
+longLabel TFEb peaks H2O2-treated cells, IDR 0.05
+shortLabel TFEb peaks H2O2
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/TFEb.H2O2.peaksIDR0.05.bb
+visibility squish
+
+
+track CPSF1_peaks_expon
+longLabel CPSF1 peaks exponential growth, IDR 0.05
+shortLabel CPSF1 peaks expon
+group peaks
+parent peaks_MACS2
+type bigBed 3
+bigDataUrl bbi/CPSF1.expon.peaksIDR0.05.bb
+visibility squish
+
