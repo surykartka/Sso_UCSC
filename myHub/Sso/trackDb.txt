@@ -34,7 +34,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 100
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -71,7 +71,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 90
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -109,7 +109,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 80
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -147,7 +147,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 70
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -185,7 +185,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 20
+priority 60
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -225,7 +225,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 10
+priority 50
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -263,7 +263,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 10
+priority 40
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -309,7 +309,7 @@ aggregate transparentOverlay
 graphTypeDefault bar
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 95
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -348,7 +348,7 @@ aggregate transparentOverlay
 graphTypeDefault bar
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 85
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -387,7 +387,7 @@ aggregate transparentOverlay
 graphTypeDefault bar
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 65
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -428,7 +428,7 @@ aggregate transparentOverlay
 graphTypeDefault bar
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 93
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -467,7 +467,7 @@ aggregate transparentOverlay
 graphTypeDefault bar
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 83
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -510,7 +510,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 94
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -549,7 +549,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 84
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -587,7 +587,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 74
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -625,7 +625,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 30
+priority 64
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -666,7 +666,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 20
+priority 54
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -704,7 +704,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 10
+priority 44
 configurable on
 autoScale on
 maxHeightPixels 50
@@ -742,7 +742,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 10
+priority 34
 configurable on
 autoScale on
 maxHeightPixels 50
