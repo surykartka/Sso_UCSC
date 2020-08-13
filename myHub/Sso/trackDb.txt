@@ -21,6 +21,211 @@ bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct
 
 
+track RNAseq_expon
+group RNA-seq
+container multiWig
+shortLabel RNA-seq expon
+longLabel RNA-seq exponential growth
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 85
+configurable on
+autoScale on
+maxHeightPixels 50
+
+track RNAseq_expon_plus_1
+longLabel RNA-seq exponential growth, plus strand, replicate 1
+shortLabel RNAseq expon plus r1
+group RNA-seq
+parent RNAseq_expon
+visibility pack
+type bigWig
+color 206,4,0
+bigDataUrl bbi/expon1.plus.bw
+
+track RNAseq_expon_minus_1
+longLabel RNA-seq exponential growth, minus strand, replicate 1
+shortLabel RNAseq expon minus r1
+group RNA-seq
+parent RNAseq_expon
+visibility pack
+type bigWig
+color 206,80,80
+negateValues on
+bigDataUrl bbi/expon1.minus.bw
+
+track RNAseq_expon_plus_2
+longLabel RNA-seq exponential growth, plus strand, replicate 2
+shortLabel RNAseq expon plus r2
+group RNA-seq
+parent RNAseq_expon
+visibility pack
+type bigWig
+color 206,4,0
+bigDataUrl bbi/expon2.plus.bw
+
+track RNAseq_expon_minus_2
+longLabel RNA-seq exponential growth, minus strand, replicate 2
+shortLabel RNAseq expon minus r2
+group RNA-seq
+parent RNAseq_expon
+visibility pack
+type bigWig
+color 206,80,80
+negateValues on
+bigDataUrl bbi/expon2.minus.bw
+
+
+
+
+track RNAseq_stat
+group RNA-seq
+container multiWig
+shortLabel RNA-seq stat
+longLabel RNA-seq stationary growth
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 85
+configurable on
+autoScale on
+maxHeightPixels 50
+
+track RNAseq_stat_plus_1
+longLabel RNA-seq stationary growth, plus strand, replicate 1
+shortLabel RNAseq stat plus r1
+group RNA-seq
+parent RNAseq_stat
+visibility pack
+type bigWig
+color 206,4,0
+bigDataUrl bbi/stat1.plus.bw
+
+track RNAseq_stat_minus_1
+longLabel RNA-seq stationary growth, minus strand, replicate 1
+shortLabel RNAseq stat minus r1
+group RNA-seq
+parent RNAseq_stat
+visibility pack
+type bigWig
+color 206,80,80
+negateValues on
+bigDataUrl bbi/stat1.minus.bw
+
+track RNAseq_stat_plus_2
+longLabel RNA-seq stationary growth, plus strand, replicate 2
+shortLabel RNAseq stat plus r2
+group RNA-seq
+parent RNAseq_stat
+visibility pack
+type bigWig
+color 206,4,0
+bigDataUrl bbi/stat2.plus.bw
+
+track RNAseq_stat_minus_2
+longLabel RNA-seq stationary growth, minus strand, replicate 2
+shortLabel RNAseq stat minus r2
+group RNA-seq
+parent RNAseq_stat
+visibility pack
+type bigWig
+color 206,80,80
+negateValues on
+bigDataUrl bbi/stat2.minus.bw
+
+track RNAseq_stat_plus_3
+longLabel RNA-seq stationary growth, plus strand, replicate 3
+shortLabel RNAseq stat plus r3
+group RNA-seq
+parent RNAseq_stat
+visibility pack
+type bigWig
+color 206,4,0
+bigDataUrl bbi/stat3.plus.bw
+
+track RNAseq_stat_minus_3
+longLabel RNA-seq stationary growth, minus strand, replicate 3
+shortLabel RNAseq stat minus r3
+group RNA-seq
+parent RNAseq_stat
+visibility pack
+type bigWig
+color 206,80,80
+negateValues on
+bigDataUrl bbi/stat3.minus.bw
+
+
+
+track RNAseq_oxid
+group RNA-seq
+container multiWig
+shortLabel RNA-seq oxid
+longLabel RNA-seq H2O2-treated cells
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 85
+configurable on
+autoScale on
+maxHeightPixels 50
+
+track RNAseq_oxid_plus_1
+longLabel RNA-seq H2O2-treated cells, plus strand, replicate 1
+shortLabel RNAseq oxid plus r1
+group RNA-seq
+parent RNAseq_oxid
+visibility pack
+type bigWig
+color 206,4,0
+bigDataUrl bbi/oxid1.plus.bw
+
+track RNAseq_oxid_minus_1
+longLabel RNA-seq H2O2-treated cells, minus strand, replicate 1
+shortLabel RNAseq oxid minus r1
+group RNA-seq
+parent RNAseq_oxid
+visibility pack
+type bigWig
+color 206,80,80
+negateValues on
+bigDataUrl bbi/oxid1.minus.bw
+
+track RNAseq_oxid_plus_2
+longLabel RNA-seq H2O2-treated cells, plus strand, replicate 2
+shortLabel RNAseq oxid plus r2
+group RNA-seq
+parent RNAseq_oxid
+visibility pack
+type bigWig
+color 206,4,0
+bigDataUrl bbi/oxid2.plus.bw
+
+track RNAseq_oxid_minus_2
+longLabel RNA-seq H2O2-treated cells, minus strand, replicate 2
+shortLabel RNAseq oxid minus r2
+group RNA-seq
+parent RNAseq_oxid
+visibility pack
+type bigWig
+color 206,80,80
+negateValues on
+bigDataUrl bbi/oxid2.minus.bw
+
+
+
 
 track Rpo47
 group ChIP-seq
