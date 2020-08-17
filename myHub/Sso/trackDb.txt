@@ -21,6 +21,16 @@ bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct
 
 
+
+track TSS
+longLabel Transcription start sites from Wurtzel et al. 2010
+shortLabel TSS_Wurtzel
+group genes
+type bigBed 6
+bigDataUrl bbi/TSS_wurtzel.bb
+visibility squish
+
+
 track RNAseq_expon
 group RNA-seq
 container multiWig
@@ -1081,4 +1091,6 @@ parent peaks_MACS2
 type bigBed 5
 bigDataUrl bbi/CPSF1.expon.peaksIDR0.05.bb
 visibility squish
+
+
 
